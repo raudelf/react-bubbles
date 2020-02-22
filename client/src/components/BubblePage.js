@@ -24,7 +24,9 @@ const BubblePage = props => {
 
   return (
     <>
-      <form><button onClick={handleLogout}>Logout</button></form>
+      <form>
+        <button onClick={handleLogout}>Logout</button>
+      </form>
       <ColorList colors={colorList} updateColors={setColorList} />
       <Bubbles colors={colorList} />
     </>
