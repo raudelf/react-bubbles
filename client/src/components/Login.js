@@ -17,6 +17,7 @@ const Login = () => {
   return (
     <>
       <h1>Welcome to the Bubble App!</h1>
+      <h3>Login to get started</h3>
       <form>
         <input 
         name='username'
