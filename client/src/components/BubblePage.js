@@ -20,7 +20,6 @@ const BubblePage = props => {
 
   const handleLogout = e => {
     localStorage.removeItem('token');
-    window.location.reload();
   }
 
   return (
